@@ -27,13 +27,17 @@ const Pokemon = (props) => {
                     <div className={'item'}>
                         <h1>Stats</h1>
                         {pokeData.stats.map(el => {
-                            return <p key={el.stat.name}>{el.stat.name} - {el.base_stat}</p>
+                            return <p key={el.stat.name}>
+                                {el.stat.name.charAt(0).toUpperCase() + el.stat.name.slice(1)} - {el.base_stat}
+                            </p>
                         })}
                     </div>
                     <div className={'item'}>
                         <h1>Stats</h1>
                         {pokeData.abilities.map(el => {
-                            return <p key={el.ability.name}>{el.ability.name}</p>
+                            return <p key={el.ability.name}>
+                                {el.ability.name.charAt(0).toUpperCase() + el.ability.name.slice(1)}
+                            </p>
                         })}
                     </div>
                 </div>
