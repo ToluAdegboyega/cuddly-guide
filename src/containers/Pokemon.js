@@ -17,28 +17,26 @@ const Pokemon = (props) => {
             const pokeData = pokemonState.data[pokemonName];
             return (
                 <div className={'pokemon-wrapper'}>
-                    <div className={'item'}>
-                        <h1>Sprites</h1>
-                        <img src={pokeData.sprites.front_default} alt='' />
-                        <img src={pokeData.sprites.back_default} alt='' />
-                        <img src={pokeData.sprites.front_shiny} alt='' />
-                        <img src={pokeData.sprites.back_shiny} alt='' />
+                    <div className={'pokemon-image'}>
+                        <img src={pokeData.sprites.other['official-artwork'].front_default} alt='' />
                     </div>
-                    <div className={'item'}>
-                        <h1>Stats</h1>
-                        {pokeData.stats.map(el => {
-                            return <p key={el.stat.name}>
-                                {el.stat.name.charAt(0).toUpperCase() + el.stat.name.slice(1)} - {el.base_stat}
-                            </p>
-                        })}
-                    </div>
-                    <div className={'item'}>
-                        <h1>Stats</h1>
-                        {pokeData.abilities.map(el => {
-                            return <p key={el.ability.name}>
-                                {el.ability.name.charAt(0).toUpperCase() + el.ability.name.slice(1)}
-                            </p>
-                        })}
+                    <div className={'pokemon-text'}>
+                        <div className={'pokemon-stat'}>
+                            <h1>Stats</h1>
+                            {pokeData.stats.map(el => {
+                                return <p key={el.stat.name}>
+                                    {el.stat.name.charAt(0).toUpperCase() + el.stat.name.slice(1)} - {el.base_stat}
+                                </p>
+                            })}
+                        </div>
+                        <div className={'pokemon-ability'}>
+                            <h1>Abilities</h1>
+                            {pokeData.abilities.map(el => {
+                                return <p key={el.ability.name}>
+                                    {el.ability.name.charAt(0).toUpperCase() + el.ability.name.slice(1)}
+                                </p>
+                            })}
+                        </div>
                     </div>
                 </div>
             )
@@ -57,7 +55,7 @@ const Pokemon = (props) => {
 
     return (
         <div className={'poke'}>
-           <h1>{pokemonName.charAt(0).toUpperCase() + pokemonName.slice(1)}</h1>
+           <h1 className={'poke-name'}>{pokemonName.charAt(0).toUpperCase() + pokemonName.slice(1)}</h1>
            {showData()}
         </div>
     )
