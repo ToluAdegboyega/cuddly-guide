@@ -47,18 +47,30 @@ nav a {
 }
 
 .poke {
-  width: 90%;
-  margin: auto;
+  margin: 20px 50px;
+}
+
+.poke-name {
+  text-align: center;
 }
 
 .pokemon-wrapper {
-  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.pokemon-text {
   display: flex;
   justify-content: space-between;
 }
 
-.pokemon-wrapper .item {
-  width: 30%;
+.pokemon-stat {
+  margin: 20px;
+}
+
+.pokemon-ability {
+  margin: 20px;
 }
 
 .search-wrapper {
