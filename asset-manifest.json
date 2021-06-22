@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/poke/static/css/main.248cc4cb.chunk.css",
-    "main.js": "/poke/static/js/main.f5d8cd31.chunk.js",
-    "main.js.map": "/poke/static/js/main.f5d8cd31.chunk.js.map",
-    "runtime-main.js": "/poke/static/js/runtime-main.709e5993.js",
-    "runtime-main.js.map": "/poke/static/js/runtime-main.709e5993.js.map",
-    "static/js/2.876e423e.chunk.js": "/poke/static/js/2.876e423e.chunk.js",
-    "static/js/2.876e423e.chunk.js.map": "/poke/static/js/2.876e423e.chunk.js.map",
-    "static/js/3.8c7fe0c5.chunk.js": "/poke/static/js/3.8c7fe0c5.chunk.js",
-    "static/js/3.8c7fe0c5.chunk.js.map": "/poke/static/js/3.8c7fe0c5.chunk.js.map",
-    "index.html": "/poke/index.html",
-    "static/css/main.248cc4cb.chunk.css.map": "/poke/static/css/main.248cc4cb.chunk.css.map",
-    "static/js/2.876e423e.chunk.js.LICENSE.txt": "/poke/static/js/2.876e423e.chunk.js.LICENSE.txt",
-    "static/media/International_Pokémon_logo-300x110.1f967741.webp": "/poke/static/media/International_Pokémon_logo-300x110.1f967741.webp"
+    "main.css": "/cuddly-guide/static/css/main.248cc4cb.chunk.css",
+    "main.js": "/cuddly-guide/static/js/main.f5d8cd31.chunk.js",
+    "main.js.map": "/cuddly-guide/static/js/main.f5d8cd31.chunk.js.map",
+    "runtime-main.js": "/cuddly-guide/static/js/runtime-main.f76b60e7.js",
+    "runtime-main.js.map": "/cuddly-guide/static/js/runtime-main.f76b60e7.js.map",
+    "static/js/2.876e423e.chunk.js": "/cuddly-guide/static/js/2.876e423e.chunk.js",
+    "static/js/2.876e423e.chunk.js.map": "/cuddly-guide/static/js/2.876e423e.chunk.js.map",
+    "static/js/3.8c7fe0c5.chunk.js": "/cuddly-guide/static/js/3.8c7fe0c5.chunk.js",
+    "static/js/3.8c7fe0c5.chunk.js.map": "/cuddly-guide/static/js/3.8c7fe0c5.chunk.js.map",
+    "index.html": "/cuddly-guide/index.html",
+    "static/css/main.248cc4cb.chunk.css.map": "/cuddly-guide/static/css/main.248cc4cb.chunk.css.map",
+    "static/js/2.876e423e.chunk.js.LICENSE.txt": "/cuddly-guide/static/js/2.876e423e.chunk.js.LICENSE.txt",
+    "static/media/International_Pokémon_logo-300x110.1f967741.webp": "/cuddly-guide/static/media/International_Pokémon_logo-300x110.1f967741.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.709e5993.js",
+    "static/js/runtime-main.f76b60e7.js",
     "static/js/2.876e423e.chunk.js",
     "static/css/main.248cc4cb.chunk.css",
     "static/js/main.f5d8cd31.chunk.js"
