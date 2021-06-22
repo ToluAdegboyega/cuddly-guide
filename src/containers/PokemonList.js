@@ -48,7 +48,7 @@ const PokemonList = (props) => {
                         return (
                             <div className={'pokemon-item'} key={el.name}>
                                 <p>{el.name.charAt(0).toUpperCase() + el.name.slice(1)}</p>
-                                <Link to={`/pokemon/${el.name}`}>View</Link>
+                                <Link to={`cuddly-guide/pokemon/${el.name}`}>View</Link>
                             </div>
                         );
                     })}
@@ -75,7 +75,7 @@ const PokemonList = (props) => {
                     onChange={e => setSearch(e.target.value)}
                     placeholder='Enter A Pokemon Name'
                 />
-                <button onClick={() => props.history.push(`/pokemon/${search}`)}>Search</button>
+                <button onClick={() => props.history.push(`cuddly-guide/pokemon/${search}`)}>Search</button>
             </div>
             {showData()}
             {!_.isEmpty(pokemonList.data) && (
