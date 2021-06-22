@@ -8,17 +8,17 @@ function App() {
   return (
     <div className="App">
       <nav>
-        <NavLink to={'/'}>
+        <NavLink to={'/cuddly-guide'}>
           <img src={PokeLogo} width="100" height="50" />
         </NavLink>
       </nav>
       <Switch>
-        <Route path={'/'} exact component={PokemonList} />
-        <Route path={'/pokemon/:pokemon'} exact component={Pokemon} />
+        <Route path={'/cuddly-guide'} exact component={PokemonList} />
+        <Route path={'/cuddly-guide/pokemon/:pokemon'} exact component={Pokemon} />
         {/* /pokemon/test
          /pokemon/anything
         */}
-        <Redirect to={'/'} />
+        <Redirect to={'/cuddly-guide'} />
       </Switch>
     </div>
   );
