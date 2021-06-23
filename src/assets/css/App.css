@@ -67,9 +67,8 @@ nav a {
   flex-wrap: wrap;
 }
 
-.pokemon-text {
-  display: flex;
-  justify-content: space-between;
+.pokemon-wrapper .pokemon-image img {
+  width: 100%;
 }
 
 .pokemon-stat {
@@ -114,10 +113,9 @@ nav a {
 
 .pagination {
   display: flex;
-  width: 500px;
-  margin: 50px auto;
+  margin: 50px 10px;
   list-style: none;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 0;
 }
 
@@ -128,4 +126,10 @@ nav a {
 .pagination a:hover {
   cursor: pointer;
   color: rgb(0, 58, 112);
+}
+
+.loading-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
