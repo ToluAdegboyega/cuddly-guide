@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cuddly-guide/static/css/main.034e3fb1.chunk.css",
+    "main.css": "/cuddly-guide/static/css/main.a8f7fcf9.chunk.css",
     "main.js": "/cuddly-guide/static/js/main.605ce220.chunk.js",
     "main.js.map": "/cuddly-guide/static/js/main.605ce220.chunk.js.map",
     "runtime-main.js": "/cuddly-guide/static/js/runtime-main.f76b60e7.js",
@@ -10,14 +10,14 @@
     "static/js/3.8c7fe0c5.chunk.js": "/cuddly-guide/static/js/3.8c7fe0c5.chunk.js",
     "static/js/3.8c7fe0c5.chunk.js.map": "/cuddly-guide/static/js/3.8c7fe0c5.chunk.js.map",
     "index.html": "/cuddly-guide/index.html",
-    "static/css/main.034e3fb1.chunk.css.map": "/cuddly-guide/static/css/main.034e3fb1.chunk.css.map",
+    "static/css/main.a8f7fcf9.chunk.css.map": "/cuddly-guide/static/css/main.a8f7fcf9.chunk.css.map",
     "static/js/2.876e423e.chunk.js.LICENSE.txt": "/cuddly-guide/static/js/2.876e423e.chunk.js.LICENSE.txt",
     "static/media/International_Pokémon_logo-300x110.1f967741.webp": "/cuddly-guide/static/media/International_Pokémon_logo-300x110.1f967741.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.f76b60e7.js",
     "static/js/2.876e423e.chunk.js",
-    "static/css/main.034e3fb1.chunk.css",
+    "static/css/main.a8f7fcf9.chunk.css",
     "static/js/main.605ce220.chunk.js"
   ]
 }
