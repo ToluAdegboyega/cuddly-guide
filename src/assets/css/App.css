@@ -59,6 +59,7 @@ nav a {
 
 .poke-name {
   text-align: center;
+  color: rgb(61, 125, 202);
 }
 
 .pokemon-wrapper {
@@ -75,8 +76,24 @@ nav a {
   margin: 20px;
 }
 
+.pokemon-stat h1 {
+  color: rgb(61, 125, 202);
+}
+
+.pokemon-stat p {
+  color: rgb(0, 58, 112);
+}
+
 .pokemon-ability {
   margin: 20px;
+}
+
+.pokemon-ability h1 {
+  color: rgb(61, 125, 202);
+}
+
+.pokemon-ability p {
+  color: rgb(0, 58, 112);
 }
 
 .search-wrapper {
@@ -132,4 +149,5 @@ nav a {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: rgb(61, 125, 202);
 }
