@@ -2,7 +2,7 @@
   "name": "cuddly-guide",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://toluadegboyega.github.io/cuddly-guide",
+  "homepage": "http://toluadegboyega.github.io/cuddly-guide/landing",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
