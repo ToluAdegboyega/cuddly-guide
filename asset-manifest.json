@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/cuddly-guide/static/css/main.852ce34f.chunk.css",
-    "main.js": "/cuddly-guide/static/js/main.f265eb50.chunk.js",
-    "main.js.map": "/cuddly-guide/static/js/main.f265eb50.chunk.js.map",
-    "runtime-main.js": "/cuddly-guide/static/js/runtime-main.f76b60e7.js",
-    "runtime-main.js.map": "/cuddly-guide/static/js/runtime-main.f76b60e7.js.map",
-    "static/js/2.c45f98c1.chunk.js": "/cuddly-guide/static/js/2.c45f98c1.chunk.js",
-    "static/js/2.c45f98c1.chunk.js.map": "/cuddly-guide/static/js/2.c45f98c1.chunk.js.map",
-    "static/js/3.8c7fe0c5.chunk.js": "/cuddly-guide/static/js/3.8c7fe0c5.chunk.js",
-    "static/js/3.8c7fe0c5.chunk.js.map": "/cuddly-guide/static/js/3.8c7fe0c5.chunk.js.map",
-    "index.html": "/cuddly-guide/index.html",
-    "static/css/main.852ce34f.chunk.css.map": "/cuddly-guide/static/css/main.852ce34f.chunk.css.map",
-    "static/js/2.c45f98c1.chunk.js.LICENSE.txt": "/cuddly-guide/static/js/2.c45f98c1.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/cuddly-guide/static/media/37520-2-pokemon-ash-photos.286e9a55.png",
-    "static/media/International_Pokémon_logo-300x110.1f967741.webp": "/cuddly-guide/static/media/International_Pokémon_logo-300x110.1f967741.webp"
+    "main.css": "/cuddly-guide/landing/static/css/main.34de7ea5.chunk.css",
+    "main.js": "/cuddly-guide/landing/static/js/main.f265eb50.chunk.js",
+    "main.js.map": "/cuddly-guide/landing/static/js/main.f265eb50.chunk.js.map",
+    "runtime-main.js": "/cuddly-guide/landing/static/js/runtime-main.5b1e671e.js",
+    "runtime-main.js.map": "/cuddly-guide/landing/static/js/runtime-main.5b1e671e.js.map",
+    "static/js/2.c45f98c1.chunk.js": "/cuddly-guide/landing/static/js/2.c45f98c1.chunk.js",
+    "static/js/2.c45f98c1.chunk.js.map": "/cuddly-guide/landing/static/js/2.c45f98c1.chunk.js.map",
+    "static/js/3.8c7fe0c5.chunk.js": "/cuddly-guide/landing/static/js/3.8c7fe0c5.chunk.js",
+    "static/js/3.8c7fe0c5.chunk.js.map": "/cuddly-guide/landing/static/js/3.8c7fe0c5.chunk.js.map",
+    "index.html": "/cuddly-guide/landing/index.html",
+    "static/css/main.34de7ea5.chunk.css.map": "/cuddly-guide/landing/static/css/main.34de7ea5.chunk.css.map",
+    "static/js/2.c45f98c1.chunk.js.LICENSE.txt": "/cuddly-guide/landing/static/js/2.c45f98c1.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/cuddly-guide/landing/static/media/37520-2-pokemon-ash-photos.286e9a55.png",
+    "static/media/International_Pokémon_logo-300x110.1f967741.webp": "/cuddly-guide/landing/static/media/International_Pokémon_logo-300x110.1f967741.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.f76b60e7.js",
+    "static/js/runtime-main.5b1e671e.js",
     "static/js/2.c45f98c1.chunk.js",
-    "static/css/main.852ce34f.chunk.css",
+    "static/css/main.34de7ea5.chunk.css",
     "static/js/main.f265eb50.chunk.js"
   ]
 }
