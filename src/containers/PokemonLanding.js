@@ -4,7 +4,10 @@ import { Link } from "react-router-dom";
 const PokemonLanding = () => {
   return (
     <main>
-      <Link to={"/cuddly-guide"} className="main-button anotherAnimated bounce">
+      <Link
+        to={"/cuddly-guide-list"}
+        className="main-button anotherAnimated bounce"
+      >
         explore.
       </Link>
     </main>

@@ -69,7 +69,7 @@ const Pokemon = (props) => {
   return (
     <div className={"poke"}>
       <nav>
-        <NavLink to={"/cuddly-guide"}>
+        <NavLink to={"/cuddly-guide-list"}>
           <img src={PokeLogo} width="100" height="50" />
         </NavLink>
       </nav>

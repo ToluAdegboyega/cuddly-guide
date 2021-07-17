@@ -50,7 +50,7 @@ const PokemonList = (props) => {
               return (
                 <div className={"pokemon-item"} key={el.name}>
                   <p>{el.name.charAt(0).toUpperCase() + el.name.slice(1)}</p>
-                  <Link to={`cuddly-guide/pokemon/${el.name}`}>View</Link>
+                  <Link to={`cuddly-guide-list/pokemon/${el.name}`}>View</Link>
                 </div>
               );
             })}
@@ -72,7 +72,7 @@ const PokemonList = (props) => {
   return (
     <div>
       <nav>
-        <NavLink to={"/cuddly-guide"}>
+        <NavLink to={"/cuddly-guide-list"}>
           <img src={PokeLogo} width="100" height="50" />
         </NavLink>
       </nav>
@@ -83,7 +83,9 @@ const PokemonList = (props) => {
           placeholder="Enter A Pokemon Name"
         />
         <button
-          onClick={() => props.history.push(`cuddly-guide/pokemon/${search}`)}
+          onClick={() =>
+            props.history.push(`cuddly-guide-list/pokemon/${search}`)
+          }
         >
           Search
         </button>

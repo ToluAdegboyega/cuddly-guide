@@ -9,21 +9,17 @@ function App() {
   return (
     <div className="App">
       <Switch>
+        <Route path={"/cuddly-guide-list"} exact component={PokemonList} />
+        <Route path={"/cuddly-guide"} exact component={PokemonLanding} />
         <Route
-          path={"/cuddly-guide/landing"}
-          exact
-          component={PokemonLanding}
-        />
-        <Route path={"/cuddly-guide"} exact component={PokemonList} />
-        <Route
-          path={"/cuddly-guide/pokemon/:pokemon"}
+          path={"/cuddly-guide-list/pokemon/:pokemon"}
           exact
           component={Pokemon}
         />
         {/* /pokemon/test
          /pokemon/anything
         */}
-        <Redirect to={"/cuddly-guide"} />
+        <Redirect to={"/cuddly-guide-list"} />
       </Switch>
     </div>
   );
