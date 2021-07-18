@@ -19,7 +19,7 @@ function App() {
         {/* /pokemon/test
          /pokemon/anything
         */}
-        <Redirect to={"/cuddly-guide-list"} />
+        <Redirect to={"/cuddly-guide"} />
       </Switch>
     </div>
   );
